@@ -1,5 +1,5 @@
 DefaultContentLanguage = "en"
-author = "唐心's博客"
+author = "唐心"
 baseURL = "https://hugo.tangxin.fun/"
 copyright = "Copyright © 2008–2019"
 disqusShortname = "YOURSHORTNAME"
@@ -9,7 +9,7 @@ googleAnalytics = "UA-FAKE"
 hasCJKLanguage = true
 languageCode = "en"
 theme = "tokiwa"
-title = "Hugo Themes"
+title = "唐心's博客"
 
 [markup]
 [markup.highlight]
