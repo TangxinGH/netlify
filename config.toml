@@ -8,7 +8,7 @@ footnoteReturnLinkContents = "^"
 googleAnalytics = "UA-FAKE"
 hasCJKLanguage = true
 languageCode = "en"
-theme = "hugo-theme-tokiwa"
+theme = "tokiwa"
 title = "Hugo Themes"
 
 [markup]
