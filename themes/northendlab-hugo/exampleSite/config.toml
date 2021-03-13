@@ -1,8 +1,8 @@
 ############################ Default configuration #########################
-baseURL = "https://yayi.site/"
-languageCode = "zh-cn"
+baseURL = "https://examplesite.com/"
+languageCode = "en-us"
 # site title 
-title = "唐心's博客"
+title = "Northendlab | Blog Template"
 # theme
 theme = "northendlab-hugo"
 # post pagination
