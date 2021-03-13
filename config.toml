@@ -27,6 +27,31 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
+
+#iris 主题有的
+canonifyURLs: true
+
+#iris end
+
+#[markup]
+#[markup.highlight]
+#style = "monokailight"
+
+#[markup.goldmark.renderer]
+#unsafe = true
+
+[params]
+bannerFont = "fonts/exampleFont" 
+description = """
+Tokiwa-iro is the theme color of this site.
+""" 
+env = "production" # for Google Analytics and DISQUS.
+favicon = "img/favicon-32x32.png" 
+fuse = true # for searchbox. "JSON" must added to output contents. See [outputs].
+math = true # for introducing $KaTEX$
+useChineseFonts = true 
+
+
 # anotole的参数
 [params]
 title = "I'm Jane Doe"
@@ -110,28 +135,6 @@ url = "mailto:mail@example.com"
  
 #anotole end
 
-#iris 主题有的
-canonifyURLs: true
-
-#iris end
-
-#[markup]
-#[markup.highlight]
-#style = "monokailight"
-
-#[markup.goldmark.renderer]
-#unsafe = true
-
-[params]
-bannerFont = "fonts/exampleFont" 
-description = """
-Tokiwa-iro is the theme color of this site.
-""" 
-env = "production" # for Google Analytics and DISQUS.
-favicon = "img/favicon-32x32.png" 
-fuse = true # for searchbox. "JSON" must added to output contents. See [outputs].
-math = true # for introducing $KaTEX$
-useChineseFonts = true 
 
 [menu]
 # Shown in the side menu.
