@@ -81,7 +81,8 @@ pluralizeListTitles: false
 
 #iris end
 
-# northendlab 主题特有的
+#northendlab 主题特有的
+
 paginate = "5"
 
 [[menu.footer]]
