@@ -13,6 +13,7 @@ collections:
     folder: 'content/post'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
     editor:
       preview: false
     view_filters:
@@ -21,7 +22,7 @@ collections:
         pattern: 'This is post #'
       - label: Posts Without Index
         field: title
-        pattern: front matter post
+        pattern: 'test'
       - label: Drafts
         field: draft
         pattern: true
@@ -51,9 +52,9 @@ collections:
         tagname: ''
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
 
-  - name: 'faq' # Used in routes, ie.: /admin/collections/:slug/edit
-    label: 'FAQ' # Used in the UI
-    folder: '_faqs'
+  - name: 'configFile' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'config file' # Used in the UI
+    folder: '/'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: 'Question', name: 'title', widget: 'string', tagname: 'h1' }

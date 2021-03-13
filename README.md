@@ -45,3 +45,17 @@
 配置文件不要有tab文件yaml
 
 ### 切换主题思想
+
+修改指向的目录。
+
+指向配置文件 
+
+config = "config/configtokiwa.toml"
+metaDataFormat = "toml"
+
+存在的问题，一些静态资源要事先复制好
+
+#### admin中的config.yaml
+
+配置修改config目录的方法、权限。创建权限
+
