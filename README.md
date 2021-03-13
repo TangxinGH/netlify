@@ -42,4 +42,6 @@
 
 见官方[Configuration Options | Netlify CMS | Open-Source Content Management System](https://www.netlifycms.org/docs/configuration-options/)
 
+配置文件不要有tab文件yaml
+
 ### 切换主题思想
