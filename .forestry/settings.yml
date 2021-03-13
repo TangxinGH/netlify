@@ -35,7 +35,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: /
+  path: ''
   label: Configuration
   create: all
   match: "*.toml"
