@@ -2,128 +2,33 @@ DefaultContentLanguage = "zh-cn"
 author = "唐心"
 baseURL = "https://blog.yayi.site/"
 copyright = "Copyright © 2008–2019"
-disqusShortname = "tangxin"  # Enable Disqus
+disqusShortname = "tangxin"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
-
 googleAnalytics = "UA-FAKE"
-
 hasCJKLanguage = true
-languageCode = "zh-cn"
+languageCode = "en"
 #themes = ["anatole", "iris", "northendlab-hugo", "tokiwa"]
-theme = "tokiwa"
+theme = "anatole"
 title = "唐心's博客"
 
-#----以上是公有的
+[markup]
+[markup.highlight]
+style = "monokailight"
 
-#anotole主题特有的
-
-summarylength = 10
-enableEmoji = true
-enableRobotsTXT = true
-
-# Syntax highlighting
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-
-
-#iris 主题有的
-canonifyURLs: true
-
-#iris end
-
- 
+[markup.goldmark.renderer]
+unsafe = true
 
 [params]
- 
- 
- 
-
-# anotole的参数
- 
-title = "I'm tang xin"
-author = "tang xin"
- 
-
-profilePicture = "images/profile.jpg"
-keywords = ""
-favicon = "img/"
-# example ["css/custom.css"]
-customCss = []
-# example ["js/custom.js"]
-customJs = [] 
-mainSections = ["post"]
-images = ["images/site-feature-image.png"]
-doNotLoadAnimations = false
-## Math settings
-[params.math]
-enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-use = "katex"  # options: "katex", "mathjax". default is "katex".
-## Social links
-# use 'fab' when brand icons, use 'fas' when standard solid icons.
-
-[[params.socialIcons]]
-icon = "fab fa-linkedin"
-title = "Linkedin"
-url = "https://de.linkedin.com/"
-
-[[params.socialIcons]]
-icon = "fab fa-github"
-title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
-
-[[params.socialIcons]]
-icon = "fab fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
-
-[[params.socialIcons]]
-icon = "fas fa-envelope"
-title = "e-mail"
-url = "mailto:mail@example.com"
-
- 
- #northendlab start 
- 
- [[params.plugins.css]]
- link = "plugins/bootstrap/bootstrap.min.css"
- [[params.plugins.css]]
- link = "plugins/themify-icons/themify-icons.css"
- [[params.plugins.js]]
- link = "plugins/jQuery/jquery.min.js"
- [[params.plugins.js]]
- link = "plugins/bootstrap/bootstrap.min.js"
- [[params.plugins.js]]
- link = "plugins/search/fuse.min.js"
- [[params.plugins.js]]
- link = "plugins/search/mark.js"
- [[params.plugins.js]]
- link = "plugins/search/search.js"
- [params.preloader]
- enable = true
- preloader = ""
- [params.search]
- enable = true
- 
- [[params.social]]
- icon = "ti-facebook"
- link = "#"
- [[params.social]]
- icon = "ti-twitter-alt"
- link = "#"
- [[params.social]]
- icon = "ti-github"
- link = "#"
- [[params.social]]
- icon = "ti-linkedin"
- link = "#"
- 
- # northendlab end
- 
-#anotole end
-
-
+bannerFont = "fonts/exampleFont" 
+description = """
+Tokiwa-iro is the theme color of this site.
+""" 
+env = "production" # for Google Analytics and DISQUS.
+favicon = "img/favicon-32x32.png" 
+fuse = true # for searchbox. "JSON" must added to output contents. See [outputs].
+math = true # for introducing $KaTEX$
+useChineseFonts = true 
 
 [menu]
 # Shown in the side menu.
@@ -147,21 +52,7 @@ identifier = "about"
 name = "About"
 url = "/about/"
 weight = 3
- [[menu.main]]
-  name = "Contact"
-  weight = 4
-  identifier = "contact"
-  url = "/contact/"
-  
-[[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 1
-[[menu.footer]]
-URL = "tools"
-name = "tools"
-weight = 2
-  
+
 [taxonomies]
 category = "categories"
 series = "series"
