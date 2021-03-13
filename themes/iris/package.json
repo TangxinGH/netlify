@@ -1,0 +1,42 @@
+{
+  "name": "hugo-theme-iris",
+  "version": "0.29.0",
+  "description": "Hugo IRIS Theme - Portfolio and Blog",
+  "private": true,
+  "scripts": {
+    "postinstall": "npx husky install",
+    "start": "run-p client server",
+    "server": "make up",
+    "client": "wait-on http://localhost:1313 && open http://localhost:1313",
+    "up": "make npm-up",
+    "build": "make npm-build",
+    "test": "make npm-test",
+    "release": "standard-version"
+  },
+  "lint-staged": {
+    "**/*": [
+      "npm test"
+    ],
+    "{README,CONTRIBUTING}.md": [
+      "npx doctoc@2.0.0 --github"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://peaceiris@github.com/peaceiris/hugo-theme-iris.git"
+  },
+  "author": "peaceiris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peaceiris/hugo-theme-iris/issues"
+  },
+  "homepage": "https://github.com/peaceiris/hugo-theme-iris#readme",
+  "devDependencies": {
+    "husky": "^5.1.3",
+    "lint-staged": "^10.5.4",
+    "npm-run-all": "^4.1.5",
+    "open": "^8.0.2",
+    "standard-version": "^9.1.1",
+    "wait-on": "^5.2.1"
+  }
+}

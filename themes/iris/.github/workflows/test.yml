@@ -1,0 +1,115 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "README.md"
+  pull_request:
+    paths-ignore:
+      - "README.md"
+
+jobs:
+  test:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Read .env
+        id: hugo_version
+        run: |
+          . ./.env
+          echo "::set-output name=hugo_version::${HUGO_VERSION}"
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2.4.13
+        with:
+          hugo-version: "${{ steps.hugo_version.outputs.hugo_version }}"
+          extended: true
+
+      - uses: actions/cache@v2.1.4
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - run: make cibuild
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.1.13
+        with:
+          publish-dir: './exampleSite/public'
+          production-branch: master
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: true
+          enable-commit-comment: false
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 1
+
+  test-docker:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/cache@v2.1.4
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: Build Testing with Docker
+        run: |
+          export HUGO_CACHEDIR=/tmp/hugo_cache
+          make build
+
+  test-setup:
+    runs-on: ubuntu-18.04
+    strategy:
+      matrix:
+        extended:
+          - true
+          - false
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Read .env
+        id: hugo_version
+        run: |
+          . ./.env
+          echo "::set-output name=hugo_version::${HUGO_VERSION}"
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2.4.13
+        with:
+          hugo-version: "${{ steps.hugo_version.outputs.hugo_version }}"
+          extended: ${{ matrix.extended }}
+
+      - uses: actions/cache@v2.1.4
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: Setup Git
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - name: Create a new Hugo project
+        run: |
+          mkdir ~/homepage
+          cp scripts/setup.sh ~
+          cd ~
+          bash ./setup.sh "homepage" "peaceiris"
+          cd homepage
+          hugo

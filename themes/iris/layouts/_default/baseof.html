@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+  {{ partial "head" . }}
+  <body>
+    {{ with $.Params.slide }}
+      <div class="reveal">
+        <div class="slides">
+          {{- range (split $.RawContent "---\n") -}}
+            <section data-markdown>
+              <script type="text/template">
+                {{- . -}}
+              </script>
+            </section>
+          {{- end -}}
+        </div>
+      </div>
+      {{ partialCached "revealjs/js" . }}
+    {{ else }}
+      {{ partial "header.html" . }}
+      <section class="hero is-dark is-large">
+        <div class="columns">
+          <div class="column is-8 is-offset-2">
+            {{ block "main" . }}{{ end }}
+          </div>
+        </div>
+      </section>
+      {{ partial "footer" . }}
+    {{ end }}
+    {{ if $.Params.math }}
+      {{ partialCached "mathjax" . }}
+    {{ end }}
+    {{ if .HasShortcode "mermaid" }}
+      {{ partialCached "mermaid" . }}
+    {{ end }}
+  </body>
+</html>

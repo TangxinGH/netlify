@@ -1,0 +1,35 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: '11:00'
+    timezone: Japan
+  labels:
+  - "dependencies-npm"
+  commit-message:
+    prefix: deps(npm)
+
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: "daily"
+    time: '11:00'
+    timezone: Japan
+  labels:
+  - "CI/CD"
+  commit-message:
+    prefix: ci
+
+# TODO: cannot detect updates of Hugo Modules
+- package-ecosystem: "gomod"
+  directory: "/exampleSite"
+  schedule:
+    interval: "daily"
+    time: "11:00"
+    timezone: "Japan"
+  labels:
+  - "dependencies-gomod"
+  commit-message:
+    prefix: deps(gomod)
