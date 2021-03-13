@@ -8,8 +8,8 @@ footnoteReturnLinkContents = "^"
 googleAnalytics = "UA-FAKE"
 hasCJKLanguage = true
 languageCode = "en"
-themes = ["anatole", "iris", "northendlab-hugo", "tokiwa"]
-
+#themes = ["anatole", "iris", "northendlab-hugo", "tokiwa"]
+theme = "tokiwa"
 title = "唐心's博客"
 
 [markup]
