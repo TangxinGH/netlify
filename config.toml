@@ -27,9 +27,6 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
-canonifyURLs: true
-pluralizeListTitles: false
-
 # anotole的参数
 [params]
 title = "I'm Jane Doe"
@@ -77,12 +74,13 @@ url = "mailto:mail@example.com"
 #anotole end
 
 #iris 主题有的
+canonifyURLs: true
+ 
 
 
+#iris end
 
-# iris end
-
-# northendlab start 
+#northendlab start 
 
 paginate = "5"
 
