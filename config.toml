@@ -71,55 +71,49 @@ title = "e-mail"
 url = "mailto:mail@example.com"
 
  
+ #northendlab start 
+ 
+ [[params.plugins.css]]
+ link = "plugins/bootstrap/bootstrap.min.css"
+ [[params.plugins.css]]
+ link = "plugins/themify-icons/themify-icons.css"
+ [[params.plugins.js]]
+ link = "plugins/jQuery/jquery.min.js"
+ [[params.plugins.js]]
+ link = "plugins/bootstrap/bootstrap.min.js"
+ [[params.plugins.js]]
+ link = "plugins/search/fuse.min.js"
+ [[params.plugins.js]]
+ link = "plugins/search/mark.js"
+ [[params.plugins.js]]
+ link = "plugins/search/search.js"
+ [params.preloader]
+ enable = true
+ preloader = ""
+ [params.search]
+ enable = true
+ 
+ [[params.social]]
+ icon = "ti-facebook"
+ link = "#"
+ [[params.social]]
+ icon = "ti-twitter-alt"
+ link = "#"
+ [[params.social]]
+ icon = "ti-github"
+ link = "#"
+ [[params.social]]
+ icon = "ti-linkedin"
+ link = "#"
+ 
+ # northendlab end
+ 
 #anotole end
 
 #iris 主题有的
 canonifyURLs: true
- 
-
 
 #iris end
-
-#northendlab start 
-
-
-
-
-
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
-[[params.plugins.js]]
-link = "plugins/jQuery/jquery.min.js"
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/search/fuse.min.js"
-[[params.plugins.js]]
-link = "plugins/search/mark.js"
-[[params.plugins.js]]
-link = "plugins/search/search.js"
-[params.preloader]
-enable = true
-preloader = ""
-[params.search]
-enable = true
-
-[[params.social]]
-icon = "ti-facebook"
-link = "#"
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
-[[params.social]]
-icon = "ti-github"
-link = "#"
-[[params.social]]
-icon = "ti-linkedin"
-link = "#"
-
-# northendlab end
 
 [markup]
 [markup.highlight]
