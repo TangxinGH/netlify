@@ -33,12 +33,7 @@ canonifyURLs: true
 
 #iris end
 
-#[markup]
-#[markup.highlight]
-#style = "monokailight"
-
-#[markup.goldmark.renderer]
-#unsafe = true
+ 
 
 [params]
 bannerFont = "fonts/exampleFont" 
@@ -49,59 +44,8 @@ fuse = true # for searchbox. "JSON" must added to output contents. See [outputs]
 math = true # for introducing $KaTEX$
 useChineseFonts = true 
 
-
-[menu]
-# Shown in the side menu.
-[[menu.main]]
-identifier = "post"
-name = "Posts"
-url = "/post/"
-weight = 1
-[[menu.main]]
-name = "Tags"
-url = "/tags/"
-weight = 2
-
-[[menu.main]]
-name = "Categories"
-url = "/categories/"
-weight = 2
-
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 3
- [[menu.main]]
-  name = "Contact"
-  weight = 4
-  identifier = "contact"
-  url = "/contact/"
-  
-[[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 1
-[[menu.footer]]
-URL = "tools"
-name = "tools"
-weight = 2
-  
-[taxonomies]
-category = "categories"
-series = "series"
-tag = "tags"
-[social]
-bilibili = "http://bilibili.com/"
-github = "http://github.com/tangxingh"
-gitlab = "http://gitlab.com/"
-instagram = "http://example.com/"
-mail = "mailto:anon@example.com"
-twitter = "http://twitter.com/"
-weibo = "http://example.com/"
-youtube = "http://youtube.com/"
-zhihu = "http://example.com/"
-# any icon in layouts/partials/svg can be used by the name without the "-line.svg"
-
-[outputs]
-home = ["HTML", "RSS", "JSON"]
+# anotole的参数
+ 
+title = "I'm tang xin"
+author = "tang xin"
+ 
