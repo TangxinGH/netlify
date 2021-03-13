@@ -40,17 +40,17 @@ collections:
       - { label: 'Cover Image', name: 'image',  widget: 'image', required: false, tagname: '' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
 
-  - name: '配置' # Used in routes, ie.: /admin/collections/:slug/edit
-    label: 'configfile' # Used in the UI
-    folder: 'config'
+  - name: 'configfile' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: '配置' # Used in the UI
+    folder: 'config/_default'
     delete: false
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
-    file: '_default/config.toml'
+    file: 'config.toml'
     description: 'General toaml Settings'
     fields: # The fields each document in this collection have
-      - { label: 'edit file', name: 'configtoml', widget: 'string' }
+      - { label: 'edit file', name: 'configtoml', widget: 'text' }
        
 
   - name: 'settings'
