@@ -38,3 +38,8 @@
 
  
 
+### admin配置文件
+
+见官方[Configuration Options | Netlify CMS | Open-Source Content Management System](https://www.netlifycms.org/docs/configuration-options/)
+
+### 切换主题思想
