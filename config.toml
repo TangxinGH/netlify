@@ -82,7 +82,7 @@ canonifyURLs: true
 
 #northendlab start 
 
-paginate = "5"
+
 
 [[menu.footer]]
 URL = "contact"
