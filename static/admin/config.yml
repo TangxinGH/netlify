@@ -40,13 +40,18 @@ collections:
       - { label: 'Cover Image', name: 'image',  widget: 'image', required: false, tagname: '' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
 
-  - name: 'configFile' # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: 'configfile'f # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'configfile' # Used in the UI
-    folder: '/'
+    folder: 'config'
+    delete: false
+    editor:
+      preview: false
     create: true # Allow users to create new documents in this collection
+    file: '_default/config.toml'
+    description: 'General toaml Settings'
     fields: # The fields each document in this collection have
-      - { label: 'Question', name: 'title', widget: 'string', tagname: 'h1' }
-      - { label: 'Answer', name: 'body', widget: 'markdown' }
+      - { label: 'edit file', name: 'configtoml', widget: 'string' }
+       
 
   - name: 'settings'
     label: 'Settings'
