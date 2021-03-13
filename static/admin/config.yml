@@ -10,7 +10,7 @@ collections:
     label: 'Blog'
     description: >
       The description is a great place for tone setting写博客,
-    folder: 'content/posts'
+    folder: 'content'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
