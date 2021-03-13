@@ -30,6 +30,7 @@
 
 2. 在项目根添加netlify.toml配置流程文件。环境变量hugo版本！
 3. netlify查看日志 显示错误
+4. admin下的config.yaml中的集合目录（默认是blog）应该是hugo默认的posts目录,不然，新建博客看不到。
 
 #### 成员管理
 
