@@ -50,7 +50,7 @@ name = "tools"
 weight = 3
 [[menu.main]]
 URL = "posts"
-name = "Blog:
+name = "Blog"
 weight = 1
 
 # footer menu
