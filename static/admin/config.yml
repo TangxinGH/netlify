@@ -40,7 +40,7 @@ collections:
       - { label: 'Cover Image', name: 'image',  widget: 'image', required: false, tagname: '' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
 
-  - name: 'configfile'f # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: '配置' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'configfile' # Used in the UI
     folder: 'config'
     delete: false
