@@ -37,7 +37,6 @@ canonifyURLs: true
 
 [params]
 bannerFont = "fonts/exampleFont" 
-description = "Tokiwa-iro is the theme color of this site." 
 env = "production" # for Google Analytics and DISQUS.
  
 fuse = true # for searchbox. "JSON" must added to output contents. See [outputs].
@@ -49,3 +48,138 @@ useChineseFonts = true
 title = "I'm tang xin"
 author = "tang xin"
  
+
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "img/"
+# example ["css/custom.css"]
+customCss = []
+# example ["js/custom.js"]
+customJs = [] 
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = false
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://de.linkedin.com/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/lxndrblz/anatole/"
+
+[[params.socialIcons]]
+icon = "fab fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:mail@example.com"
+
+ 
+ #northendlab start 
+ 
+ [[params.plugins.css]]
+ link = "plugins/bootstrap/bootstrap.min.css"
+ [[params.plugins.css]]
+ link = "plugins/themify-icons/themify-icons.css"
+ [[params.plugins.js]]
+ link = "plugins/jQuery/jquery.min.js"
+ [[params.plugins.js]]
+ link = "plugins/bootstrap/bootstrap.min.js"
+ [[params.plugins.js]]
+ link = "plugins/search/fuse.min.js"
+ [[params.plugins.js]]
+ link = "plugins/search/mark.js"
+ [[params.plugins.js]]
+ link = "plugins/search/search.js"
+ [params.preloader]
+ enable = true
+ preloader = ""
+ [params.search]
+ enable = true
+ 
+ [[params.social]]
+ icon = "ti-facebook"
+ link = "#"
+ [[params.social]]
+ icon = "ti-twitter-alt"
+ link = "#"
+ [[params.social]]
+ icon = "ti-github"
+ link = "#"
+ [[params.social]]
+ icon = "ti-linkedin"
+ link = "#"
+ 
+ # northendlab end
+ 
+#anotole end
+
+
+
+[menu]
+# Shown in the side menu.
+[[menu.main]]
+identifier = "post"
+name = "Posts"
+url = "/post/"
+weight = 1
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+name = "Categories"
+url = "/categories/"
+weight = 2
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 3
+ [[menu.main]]
+  name = "Contact"
+  weight = 4
+  identifier = "contact"
+  url = "/contact/"
+  
+[[menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 1
+[[menu.footer]]
+URL = "tools"
+name = "tools"
+weight = 2
+  
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+[social]
+bilibili = "http://bilibili.com/"
+github = "http://github.com/tangxingh"
+gitlab = "http://gitlab.com/"
+instagram = "http://example.com/"
+mail = "mailto:anon@example.com"
+twitter = "http://twitter.com/"
+weibo = "http://example.com/"
+youtube = "http://youtube.com/"
+zhihu = "http://example.com/"
+# any icon in layouts/partials/svg can be used by the name without the "-line.svg"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
