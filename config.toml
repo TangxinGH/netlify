@@ -42,7 +42,7 @@ canonifyURLs: true
 
 [params]
 bannerFont = "fonts/exampleFont" 
-description = "Call me tangxin"
+description = """
 Tokiwa-iro is the theme color of this site.
 """ 
 env = "production" # for Google Analytics and DISQUS.
