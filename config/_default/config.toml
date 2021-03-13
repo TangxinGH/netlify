@@ -1,6 +1,6 @@
 DefaultContentLanguage = "zh-cn"
 author = "唐心"
-baseURL = "https://hugo.tangxin.fun/"
+baseURL = "https://blog.yayi.site/"
 copyright = "Copyright © 2008–2019"
 disqusShortname = "tangxin"
 enableInlineShortcodes = true
