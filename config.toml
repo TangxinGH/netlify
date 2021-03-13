@@ -42,7 +42,7 @@ canonifyURLs: true
 
 [params]
 bannerFont = "fonts/exampleFont" 
-description = """
+description = "Call me tangxin"
 Tokiwa-iro is the theme color of this site.
 """ 
 env = "production" # for Google Analytics and DISQUS.
@@ -53,11 +53,11 @@ useChineseFonts = true
 
 
 # anotole的参数
-[params]
-title = "I'm Jane Doe"
-author = "Jane Doe"
  
-description = "Call me Jane"
+title = "I'm tang xin"
+author = "tang xin"
+ 
+
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "img/"
