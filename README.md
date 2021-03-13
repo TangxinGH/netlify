@@ -38,3 +38,27 @@
 
  
 
+### admin配置文件
+
+见官方[Configuration Options | Netlify CMS | Open-Source Content Management System](https://www.netlifycms.org/docs/configuration-options/)
+
+配置文件不要有tab文件yaml
+
+### 切换主题思想
+
+修改指向的目录。
+
+ cofig 目录 切换环境变量，webhook 传送变量。然而并没有这个变量
+
+存在的问题，一些静态资源要事先复制好
+
+ 
+
+
+
+#### 
+
+[Forestry.io](https://app.forestry.io/dashboard/#/) cms 管理系统。用这个好，
+
+netlify 的就作个域名，空间访问加速就行。
+
