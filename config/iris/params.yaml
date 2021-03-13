@@ -1,7 +1,7 @@
 repo:
-  URL: "https://github.com/peaceiris/hugo-theme-iris"
-  branch: master
-  contentDir: exampleSite/content
+  URL: "https://github.com/tangxingh/netlify"
+  branch: main
+  contentDir: content
 
 # revealjs code highlight
 # highlightStyle: solarized-light
