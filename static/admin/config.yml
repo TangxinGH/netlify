@@ -48,7 +48,7 @@ collections:
       preview: false
     create: true # Allow users to create new documents in this collection
     file: 'config.toml'
-    description: 'General toaml Settings'
+    description: '不可能的'
     fields: # The fields each document in this collection have
       - { label: 'edit file', name: 'configtoml', widget: 'text' }
        
