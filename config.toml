@@ -20,7 +20,6 @@ pygmentsCodefencesGuessSyntax = true
 
 [params]
 author = "唐心"
-author = "Jane Doe"
 #copyright = "2020-2021"
 description = "Call me Jane"
 profilePicture = "images/profile.jpg"
