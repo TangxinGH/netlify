@@ -37,23 +37,11 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - {
-          label: 'Publish Date',
-          name: 'date',
-          widget: 'datetime',
-          date_format: 'YYYY-MM-DD',
-          time_format: 'HH:mm',
-          format: 'YYYY-MM-DD HH:mm',
-        }
-      - label: 'Cover Image'
-        name: 'image'
-        widget: 'image'
-        required: false
-        tagname: ''
+      - { label: 'Cover Image', name: 'image',  widget: 'image', required: false, tagname: '' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
 
   - name: 'configFile' # Used in routes, ie.: /admin/collections/:slug/edit
-    label: 'config file' # Used in the UI
+    label: 'configfile' # Used in the UI
     folder: '/'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
