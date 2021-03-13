@@ -115,10 +115,12 @@ canonifyURLs: true
 
 #iris end
 
+#[markup]
+#[markup.highlight]
+#style = "monokailight"
 
-
-[markup.goldmark.renderer]
-unsafe = true
+#[markup.goldmark.renderer]
+#unsafe = true
 
 [params]
 bannerFont = "fonts/exampleFont" 
