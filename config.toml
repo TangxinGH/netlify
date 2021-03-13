@@ -37,11 +37,8 @@ canonifyURLs: true
 
 [params]
  
-env = "production" # for Google Analytics and DISQUS.
  
-fuse = true # for searchbox. "JSON" must added to output contents. See [outputs].
-math = true # for introducing $KaTEX$
-useChineseFonts = true 
+ 
 
 # anotole的参数
  
