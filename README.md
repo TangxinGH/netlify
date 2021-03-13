@@ -48,20 +48,17 @@
 
 修改指向的目录。
 
-指向配置文件 
-
-config = "config/configtokiwa.toml"
-metaDataFormat = "toml"
+ cofig 目录 切换环境变量，webhook 传送变量。然而并没有这个变量
 
 存在的问题，一些静态资源要事先复制好
 
-#### admin中的config.yaml
-
-配置修改config目录的方法、权限。创建权限
+ 
 
 
 
 #### 
 
-[Forestry.io](https://app.forestry.io/dashboard/#/) cms 管理系统
+[Forestry.io](https://app.forestry.io/dashboard/#/) cms 管理系统。用这个好，
+
+netlify 的就作个域名，空间访问加速就行。
 
