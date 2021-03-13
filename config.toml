@@ -84,14 +84,7 @@ canonifyURLs: true
 
 
 
-[[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 1
-[[menu.footer]]
-URL = "tools"
-name = "tools"
-weight = 2
+
 
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -173,6 +166,15 @@ weight = 3
   weight = 4
   identifier = "contact"
   url = "/contact/"
+  
+[[menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 1
+[[menu.footer]]
+URL = "tools"
+name = "tools"
+weight = 2
   
 [taxonomies]
 category = "categories"
