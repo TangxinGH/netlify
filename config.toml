@@ -115,9 +115,7 @@ canonifyURLs: true
 
 #iris end
 
-[markup]
-[markup.highlight]
-style = "monokailight"
+
 
 [markup.goldmark.renderer]
 unsafe = true
