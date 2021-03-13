@@ -1,26 +1,39 @@
-
-
 [如何将 Hugo 部署到 Netlify - 郝鸿涛::Hongtao Hao](https://hongtaoh.com/cn/2020/01/04/hugo-netlify-deploy/)
 
-# hugoBasicExample
+# 使用
 
-This repository offers an example site for [Hugo](https://gohugo.io/) and also it provides the default content for demos hosted on the [Hugo Themes Showcase](https://themes.gohugo.io/).
+1. 安装hugo 
 
-# Using
+2. 生成new site 
 
-1. [Install Hugo](https://gohugo.io/overview/installing/)
-2. Clone this repository
-```bash
-git clone https://github.com/gohugoio/hugoBasicExample.git
-cd hugoBasicExample
-```
-3. Clone the repository you want to test. If you want to test all Hugo Themes then follow the instructions provided [here](https://github.com/gohugoio/hugoThemes#installing-all-themes)
-4. Run Hugo and select the theme of your choosing
-```bash
-hugo server -t YOURTHEME
-```
-5. Under `/content/` this repository contains the following:
-- A section called `/post/` with sample markdown content
-- A headless bundle called `homepage` that you may want to use for single page applications. You can find instructions about headless bundles over [here](https://gohugo.io/content-management/page-bundles/#headless-bundle)
-- An `about.md` that is intended to provide the `/about/` page for a theme demo
-6. If you intend to build a theme that does not fit in the content structure provided in this repository, then you are still more than welcome to submit it for review at the [Hugo Themes](https://github.com/gohugoio/hugoThemes/issues) respository
+3. 下载主题，重命名 放到theme中，主题的expamlesite放到site目录下覆盖
+
+4. 运行 theme=tokiow  draft 草稿形式。查看效果
+
+5. 然后在site目录下 config.toml配置 参数，主题。
+
+6. 删除public目录，上传github
+
+   
+
+---
+
+### netlify配置
+
+1. netlify添加新网站，选择仓库。
+
+2. 域名，git gateway 。
+
+#### 后台编辑配置
+
+1. static 目录增加文件/admin 详见官方文档 。index.html config.yml文件。配置一些参数
+
+2. 在项目根添加netlify.toml配置流程文件。环境变量hugo版本！
+3. netlify查看日志 显示错误
+
+#### 成员管理
+
+公开注册或者私人
+
+ 
+
