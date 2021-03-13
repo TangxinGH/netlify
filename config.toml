@@ -76,7 +76,7 @@ url = "mailto:mail@example.com"
 #iris 主题有的
 canonifyURLs: true
 pluralizeListTitles: false
-enableGitInfo: true
+
 [minify.tdewolff.xml]
 keepWhitespace = true
 
