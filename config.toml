@@ -78,10 +78,9 @@ canonifyURLs: true
 pluralizeListTitles: false
 
 
-
 #iris end
 
-#northendlab 主题特有的
+#northendlab start 
 
 paginate = "5"
 
