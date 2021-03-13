@@ -1,6 +1,6 @@
 baseURL = "https://yayi.netlify.app/"
 disqusShortname = ""
-languageCode = "en-us"
+languageCode = "zh-cn"
 paginate = "5"
 summaryLength = "10"
 theme = "northendlab-hugo"
