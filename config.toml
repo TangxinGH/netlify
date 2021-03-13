@@ -77,8 +77,7 @@ url = "mailto:mail@example.com"
 canonifyURLs: true
 pluralizeListTitles: false
 
-[minify.tdewolff.xml]
-keepWhitespace = true
+
 
 #iris end
 
