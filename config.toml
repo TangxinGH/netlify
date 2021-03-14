@@ -54,6 +54,10 @@ URL = "tools"
 name = "tools"
 weight = 3
 
+[[menu.main]]
+URL = "admin/forestry"
+name = "Admin"
+weight = 4
 
 # footer menu
 [[menu.footer]]
