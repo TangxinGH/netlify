@@ -45,7 +45,6 @@ link = "plugins/search/search.js"
   weight = 1
 
 [[menu.main]]
-  URL = "admin/forestry"
   name = "Admin"
   weight = 2
   hasChildren = true
@@ -53,7 +52,11 @@ link = "plugins/search/search.js"
   parent = "Admin"
   name = "Netlify"
   url = "admin"
-
+[[menu.main]]
+  parent = "Admin"  
+  name = "forestry"
+  url = "admin/forestry"
+  
 [[menu.main]]
   URL = "contact"
   name = "Contact"
