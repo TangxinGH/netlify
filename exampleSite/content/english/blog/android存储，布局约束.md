@@ -1,3 +1,17 @@
+---
+title: android存储，布局约束
+date: 2020-05-30 16:18:45.000
+updated: 2020-05-30 16:18:45.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/105180391
+description: SD卡缓存目录
+当应用需要将图片或者文件缓存到SD卡中时要去申请创建目录，有下面几种途径 我们可以通过API调用应用专属目录:
+// /storage/emulated/0/Android/data/app_package_name/files/Pictures
+Content.getExternalFilesDir(Environment.DIRECTORY_PICTURES);
+// /sto...
+tags: android,存储
+categories: 
+article_id: 105180391
+---
 ﻿SD卡缓存目录
 当应用需要将图片或者文件缓存到SD卡中时要去申请创建目录，有下面几种途径 我们可以通过API调用应用专属目录:
 

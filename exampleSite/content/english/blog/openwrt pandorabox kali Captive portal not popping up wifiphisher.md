@@ -1,3 +1,22 @@
+---
+title: openwrt pandorabox kali Captive portal not popping up wifiphisher
+date: 2021-02-06 11:05:03.000
+updated: 2021-05-12 17:02:32.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/113715904
+description: kali hard blocked yes
+0: phy0: Wireless LAN
+        Soft blocked: no
+        Hard blocked: yes
+
+root@kali:/home/kali# airodump-ng wlan0mon
+ioctl(SIOCSIFFLAGS) failed: Operation not possible due to RF-kill
+Failed initializing wireless card(s): wlan0mon
+
+不要用
+tags: openwrt
+categories: Linux
+article_id: 113715904
+---
 ﻿[toc]
 
 ==注：最后放弃了。太难搞了。== ~~浪费时间~~ 

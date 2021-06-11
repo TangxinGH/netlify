@@ -1,3 +1,19 @@
+---
+title: adb命令连接 多条命令 cmd wifi调试 root与非root
+date: 2020-06-28 12:00:31.000
+updated: 2020-06-28 12:00:31.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/106996097
+description: adb uninstall cn.edu.glut.llk&amp;&amp;adb install app-debug.apk&amp;&amp;adb shell am start -n cn.edu.glut.llk/cn.edu.glut.llk.MainActivity
+
+
+&amp;&amp;
+
+
+
+tags: adb,cmd,多条
+categories: win10,andriod
+article_id: 106996097
+---
 ﻿```c
 adb uninstall cn.edu.glut.llk&&adb install app-debug.apk&&adb shell am start -n cn.edu.glut.llk/cn.edu.glut.llk.MainActivity
 ```

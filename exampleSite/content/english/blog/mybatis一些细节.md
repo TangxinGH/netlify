@@ -1,3 +1,21 @@
+---
+title: mybatis一些细节
+date: 2020-10-09 21:58:39.000
+updated: 2020-10-09 21:58:39.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/108987065
+description: 项目过程记录
+如果你要整合springboot
+你可能会去看中文官网 ，但是我建议看一下 英语版的，或许有些不一样的。
+http://mybatis.org/spring/mappers.html#scan
+https://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/
+
+如果你是多模块的，要注意一下：
+classpath:  和 classpath* 的区别 。加星的是包括lib的
+你可以maven 打包看下 ，targ
+tags: mybatis,springboot
+categories: 数据库,# springboot
+article_id: 108987065
+---
 ﻿
 ### 项目过程记录
 如果你要整合springboot 

@@ -1,3 +1,23 @@
+---
+title: nigx代理解决跨域问题，vuecli axios 直接跨域，开发环境下调试跨域
+date: 2019-12-27 18:16:48.000
+updated: 2019-12-27 18:16:48.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/103734826
+description: https://www.cnblogs.com/lovesong/p/10269793.html
+
+server{
+        listen 8888;
+        server_name  192.168.1.100;
+ 
+        location /{
+            proxy_pass http://192.168.1.100:8080;
+        }
+ 
+ ...
+tags: nginx
+categories: 网络
+article_id: 103734826
+---
 ﻿[https://www.cnblogs.com/lovesong/p/10269793.html
 ](https://www.cnblogs.com/lovesong/p/10269793.html)
 

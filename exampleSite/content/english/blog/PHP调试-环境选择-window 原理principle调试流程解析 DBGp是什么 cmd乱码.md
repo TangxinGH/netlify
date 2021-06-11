@@ -1,3 +1,21 @@
+---
+title: PHP调试-环境选择-window 原理principle调试流程解析 DBGp是什么 cmd乱码
+date: 2021-01-01 14:00:27.000
+updated: 2021-01-01 14:00:27.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/112060026
+description: PHP调试-环境选择-window
+应该要了解一下原理，而不是配。
+还有这文章写于2021.1.1。如果过时了就不要照着复制粘贴了。
+这里只是记录一下原理。不是教程。
+官网的写的非常好了
+https://www.jetbrains.com/zh-cn/phpstorm/documentation/debugging/
+
+这篇文章流程解析写的好：
+https://learnku.com/articles/4090/the-first-step-to-becoming-a-senior-php-programm
+tags: phpstorm调试,xdebug调试,cmd乱码,调试原理,调试流程
+categories: IDE,php
+article_id: 112060026
+---
 ﻿
 # PHP调试-环境选择-window 
 

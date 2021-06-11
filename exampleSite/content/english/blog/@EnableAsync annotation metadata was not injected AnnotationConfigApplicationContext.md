@@ -1,3 +1,14 @@
+---
+title: @EnableAsync annotation metadata was not injected AnnotationConfigApplicationContext
+date: 2020-04-21 20:17:35.000
+updated: 2020-04-21 20:17:35.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/105666436
+description: 错误解读
+Exception encountered during context initialization - cancelling refresh attempt: （在创建context 初始化时错误 ）org.springframework.beans.factory.BeanCreationException:（创建beans错误） Error creating bean with ...
+tags: spring context
+categories: # springboot
+article_id: 105666436
+---
 ﻿#### 错误解读
 Exception encountered during context initialization - cancelling refresh attempt: （在创建context 初始化时错误 ）org.springframework.beans.factory.BeanCreationException:（创建beans错误） Error creating bean with name 'org.springframework.context.annotation.internalAsyncAnnotationProcessor' defined in class path resource（在xx类路径下错误） [org/springframework/scheduling/annotation/ProxyAsyncConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessor]: Factory method 'asyncAdvisor' threw exception; nested exception is java.lang.IllegalArgumentException: @EnableAsync annotation metadata was not injected
 

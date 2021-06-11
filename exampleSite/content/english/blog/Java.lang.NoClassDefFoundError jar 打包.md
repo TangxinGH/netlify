@@ -1,3 +1,20 @@
+---
+title: Java.lang.NoClassDefFoundError jar 打包
+date: 2020-07-30 19:42:36.000
+updated: 2020-07-30 19:42:36.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/107698451
+description: 更改过pom文件后，运行是没问题，打包jar就Java.lang.NoClassDefFoundError
+
+右边的输出到左边。
+
+发现jar文件目录中并没有 http 这个包。
+androidstudio４．０也有这个问题，一般清除缓存，重新编译就行？
+
+...
+tags: ｄｅｆｆｏｕｎｄＥｒｒｏｒ,java
+categories: java
+article_id: 107698451
+---
 ﻿### 更改过pom文件后，运行是没问题，打包jar就Java.lang.NoClassDefFoundError
 ＩＤＥＡ 当时从当时依赖建立的artifacts ，所以依赖改变后artifacts配置并没有更新。所以出来的jar 中没有类，发现jar文件目录中并没有 http 这个包。。java -jar时有问题。IDE时没有问题。
 方法一：

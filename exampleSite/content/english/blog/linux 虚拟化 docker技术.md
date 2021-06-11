@@ -1,3 +1,15 @@
+---
+title: linux 虚拟化 docker技术
+date: 2020-11-02 15:07:28.000
+updated: 2020-11-02 15:07:28.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/109250115
+description: linux 原本就有namesapce这一概念
+
+
+tags: 内核,linux,虚拟化,docker
+categories: Linux
+article_id: 109250115
+---
 ﻿linux 原本就有namesapce这一概念.
 
 interl 提供了，，intel vt

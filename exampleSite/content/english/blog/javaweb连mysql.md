@@ -1,3 +1,22 @@
+---
+title: javaweb连mysql
+date: 2019-10-17 11:27:29.000
+updated: 2019-10-17 11:35:25.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/102602578
+description: 一共三个类：
+userVo:// 定义一个 Bean，与数据库表中的各个字段对应：
+connection://定义一个数据库连接类，用于获取 MySQL 的连接
+option:操作数据库
+uservo:定义你自己表相关字段
+   // 定义一个 Bean，与数据库表中的各个字段对应：
+
+   import java.util.Date;
+    public class UserVo {
+ pri...
+tags: 
+categories: javaweb
+article_id: 102602578
+---
 ﻿##### 一共三个类：
 userVo:// 定义一个 Bean，与数据库表中的各个字段对应：
 connection://定义一个数据库连接类，用于获取 MySQL 的连接

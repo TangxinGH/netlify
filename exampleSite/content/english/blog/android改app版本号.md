@@ -1,3 +1,17 @@
+---
+title: android改app版本号
+date: 2019-10-15 20:07:56.000
+updated: 2019-10-15 20:08:23.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/102573888
+description: app
+build.gradle
+
+
+
+tags: 
+categories: andriod
+article_id: 102573888
+---
 ﻿
 
 app

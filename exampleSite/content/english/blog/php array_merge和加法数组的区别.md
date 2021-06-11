@@ -1,3 +1,28 @@
+---
+title: php array_merge和加法数组的区别
+date: 2020-06-01 17:38:55.000
+updated: 2020-06-01 17:38:55.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/106478229
+description: &lt;?php
+echo "索引数组\n";
+$arr1=['e','w','q'];
+$arr2=['a','g','h'];
+//print_r( $arr1);
+//print_r( $arr2);
+echo "当是索引数组的时候";
+echo "加法";
+print_r(  $arr2+$arr1);
+echo "merge:";
+print_r(array_merge($arr2,$arr1));
+
+
+
+echo "关联数组";
+$arr3=array('e'=&gt;'f','g'=&gt;'
+tags: php,数组加法,数组合并,区别
+categories: php
+article_id: 106478229
+---
 ﻿```php
 <?php
 echo "索引数组\n";

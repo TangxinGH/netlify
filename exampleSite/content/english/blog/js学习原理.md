@@ -1,3 +1,16 @@
+---
+title: js学习原理
+date: 2020-11-06 12:19:41.000
+updated: 2020-11-06 12:19:41.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/109444651
+description: js 8 种类型
+js 作用域提升
+
+
+tags: javascript,学习,函数闭包,函数
+categories: JavaScript
+article_id: 109444651
+---
 ﻿### js 8 种类型
 
 ### js 作用域提升

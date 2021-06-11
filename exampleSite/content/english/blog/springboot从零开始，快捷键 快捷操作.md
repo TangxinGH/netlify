@@ -1,3 +1,20 @@
+---
+title: springboot从零开始，快捷键 快捷操作
+date: 2020-02-08 18:16:27.000
+updated: 2020-02-08 18:16:27.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/104032052
+description: 首先建一个maven 工程
+idea main方法的快捷键是psvm 回车。
+maven 导入包，官方网站有
+创建一个启动类。用注解。
+ctrl alt L 是代码修改快捷键。
+/在创建类的时候输入包名。加文件名，可以自动创建该包
+
+...
+tags: spring boot
+categories: # springboot
+article_id: 104032052
+---
 ﻿###### 首先建一个maven 工程
 idea main方法的快捷键是psvm 回车。
 maven 导入包，官方网站有

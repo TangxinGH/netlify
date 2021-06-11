@@ -1,3 +1,19 @@
+---
+title: php字符串表示 类概念知识点
+date: 2021-05-11 12:15:36.000
+updated: 2021-05-11 13:25:10.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/116648803
+description: 单引号
+双引号
+heredoc  &lt;&lt;&lt;‘标志符’ 内容&gt;&gt;&gt;
+nowdoc
+
+
+
+tags: php类概念,php字符串
+categories: php
+article_id: 116648803
+---
 ﻿1. 单引号
 2. 双引号
 3. heredoc  <<<'标志符' 内容>>>

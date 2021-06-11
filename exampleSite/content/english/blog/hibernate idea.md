@@ -1,3 +1,17 @@
+---
+title: hibernate idea
+date: 2019-10-24 17:08:37.000
+updated: 2019-10-24 20:54:52.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/102727494
+description: https://blog.csdn.net/engerla/article/details/81298645
+util.Date与sql.Date的相互转换
+Could not locate cfg.xml resource [hibernate.cfg.xml]，也有src下的
+
+Recognized obsolete hibernate namespace http://hibernate....
+tags: hibernate
+categories: javaweb
+article_id: 102727494
+---
 ﻿参考：[https://www.cnblogs.com/mq0036/p/8522150.html](https://www.cnblogs.com/mq0036/p/8522150.html)
 ![在这里插入图片描述](http://img.yayi.site/csdn/20191024170834972.png-watermaskStyle)
 [https://blog.csdn.net/engerla/article/details/81298645](https://blog.csdn.net/engerla/article/details/81298645)

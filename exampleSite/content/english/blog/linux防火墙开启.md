@@ -1,3 +1,16 @@
+---
+title: linux防火墙开启
+date: 2019-11-15 21:32:11.000
+updated: 2019-11-15 21:32:52.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/103092682
+description: https://www.cnblogs.com/yizhipanghu/p/11171211.html
+安装的服务器 用curl 试试在本地是否能打开，外网打不开时，可能防火墙原理
+
+
+tags: 
+categories: Linux
+article_id: 103092682
+---
 ﻿[https://www.cnblogs.com/yizhipanghu/p/11171211.html](https://www.cnblogs.com/yizhipanghu/p/11171211.html)
 安装的服务器 用curl 试试在本地是否能打开，外网打不开时，可能防火墙原理
 然后重启防火墙

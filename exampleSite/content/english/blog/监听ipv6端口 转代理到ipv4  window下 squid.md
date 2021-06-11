@@ -1,3 +1,22 @@
+---
+title: 监听ipv6端口 转代理到ipv4  window下 squid
+date: 2019-12-07 18:15:17.000
+updated: 2020-01-16 10:42:18.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/103438097
+description: ccproxy 不支持ipv6
+nginx 监听
+    listen      0.0.0.0:80;
+    listen      [::]:80;
+}
+应该
+因为ipv6地址相对固定，校园网 分配到几乎是一样的。但是无法上网而已
+
+
+
+tags: ipv6,squid
+categories: 网络,win10,Linux
+article_id: 103438097
+---
 ﻿ccproxy 不支持ipv6
 squid 支持，默认同时监听ipv6/4  ，然而我却无法访问？？？ipv6的？？
 

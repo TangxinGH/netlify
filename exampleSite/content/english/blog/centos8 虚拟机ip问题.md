@@ -1,3 +1,21 @@
+---
+title: centos8 虚拟机ip问题
+date: 2020-05-17 22:15:08.000
+updated: 2020-05-17 22:15:08.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/106182236
+description: nmcli c up ens33 第次要激活
+每次打开虚拟机，用XShell连接前，都要输入ifup eth0,特别烦。
+解决方法:
+修改ifcfg-eth0中 ONBOOT属性为yes
+ifcfg-eth0 一般在 /etc/sysconfig/network-scripts
+https://blog.csdn.net/SZStudy/article/details/79439032
+
+https://www.jb51.net/article/173041.htm
+vmtools 灰色 不要删除那些 C.
+tags: vmware,vmtools灰色
+categories: Linux
+article_id: 106182236
+---
 ﻿![file](http://img.yayi.site/csdn/aHR0cHM6Ly9ncmFwaC5iYWlkdS5jb20vcmVzb3VyY2UvMjIyNGRlMGMzMTliOWU2ZjZkMDIxMDE1ODk3MTk2MTcucG5n-watermaskStyle)
 
  nmcli c up ens33 第次要激活

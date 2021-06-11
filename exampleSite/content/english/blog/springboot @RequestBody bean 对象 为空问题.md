@@ -1,3 +1,43 @@
+---
+title: springboot @RequestBody bean 对象 为空问题
+date: 2020-10-11 19:19:24.000
+updated: 2020-10-11 19:19:24.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/109015203
+description: 确认 数据是传入
+f12  。
+fiddler
+debug
+改为字符串接收
+确认了是接收到了。
+
+
+关键是spring没有报错
+spring 内置jackjson
+startweb 中。
+
+
+debug进源码 ，新的世界
+
+
+打开 spring debug 级别输出
+确实有东西收到了。
+是转换的时候出问题
+
+
+实在 不行用第三方的手动转。
+加了pom jackjson依赖，
+
+
+
+这下有有错了：
+Unrecognized field , not marked as ignorable
+百度一下。
+
+ja..
+tags: spring,RequestBody
+categories: # springboot
+article_id: 109015203
+---
 ﻿1. 确认 数据是传入
   f12  。
   fiddler

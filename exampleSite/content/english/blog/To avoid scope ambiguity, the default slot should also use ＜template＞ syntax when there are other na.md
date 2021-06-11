@@ -1,3 +1,20 @@
+---
+title: To avoid scope ambiguity, the default slot should also use ＜template＞ syntax when there are other na
+date: 2020-10-04 19:05:32.000
+updated: 2020-10-04 19:05:32.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/108921358
+description: 具名插槽
+https://cn.vuejs.org/v2/guide/components-slots.html
+&lt;base-layout&gt;
+  &lt;template v-slot:header&gt; // slot="" 已经废弃 。！！！！
+    &lt;h1&gt;Here might be a page title&lt;/h1&gt;
+  &lt;/template&gt;
+
+  &lt;p&gt;A paragraph for the main content.&lt;/p&
+tags: vue slot,slot,插槽：
+categories: 前端
+article_id: 108921358
+---
 ﻿### 具名插槽
 [https://cn.vuejs.org/v2/guide/components-slots.html](https://cn.vuejs.org/v2/guide/components-slots.html)
 

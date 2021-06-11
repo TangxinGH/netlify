@@ -1,3 +1,22 @@
+---
+title: innerhtml bokeh 不起作用 script src
+date: 2021-04-09 18:36:46.000
+updated: 2021-04-09 20:11:22.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/115557051
+description: innerhtml 不起作用。
+div 和iframe 的innerhtml和write 都 没有用
+write 没有用
+iframe write 和innerhtml没有用
+用iframe 的srcdoc 可以。src 可以是可以。需求不行。
+
+什么文献都是英文的。。。。
+Note: script elements inserted using innerHTML do not execute when they are inserted.
+html5中在innerHTML中不会执行插入的脚本
+crea.
+tags: js
+categories: JavaScript
+article_id: 115557051
+---
 ﻿1. innerhtml 不起作用。
 2. div 和iframe 的innerhtml和write 都 没有用
 3. write 没有用

@@ -1,3 +1,20 @@
+---
+title: idea test junit快捷生成方法
+date: 2020-05-25 22:07:01.000
+updated: 2020-05-25 22:07:01.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/105585197
+description: 在空白处右键找到
+
+快捷键 ALT INSERT
+可以
+可以看到生成 getter setter 啊，test 方法不用每次打个 public void 之类的。
+别人都
+
+
+tags: junit,idea
+categories: IDE
+article_id: 105585197
+---
 ﻿在空白处右键找到
 ![在这里插入图片描述](http://img.yayi.site/csdn/20200417173347906.png-watermaskStyle)
 快捷键 ALT INSERT

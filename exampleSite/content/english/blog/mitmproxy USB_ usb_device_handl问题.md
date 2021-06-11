@@ -1,3 +1,16 @@
+---
+title: mitmproxy USB: usb_device_handl问题
+date: 2021-03-25 13:47:12.000
+updated: 2021-03-25 13:52:17.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/115206815
+description: [9240:7252:0325/133523.225:ERROR:device_event_log_impl.cc(214)] [13:35:23.225] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection:连到系统上的设备没有发挥作用。 (0x1F)
+
+搞了半天，没搞定
+反正 ，我将pthon 的函数线程改为继承线程类的方式就可以了。但还是会出这个错误。不过，mitmproxy可以继承执行了，
+tags: python,多线程,mitmproxy,函数线程
+categories: python
+article_id: 115206815
+---
 ﻿[9240:7252:0325/133523.225:ERROR:device_event_log_impl.cc(214)] [13:35:23.225] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection:连到系统上的设备没有发挥作用。 (0x1F)
  
  ---

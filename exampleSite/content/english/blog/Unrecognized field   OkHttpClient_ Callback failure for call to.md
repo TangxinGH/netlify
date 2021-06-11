@@ -1,3 +1,17 @@
+---
+title: Unrecognized field   OkHttpClient: Callback failure for call to
+date: 2020-09-13 13:31:42.000
+updated: 2020-09-13 13:31:42.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/108561469
+description: Progouard
+开始压缩 ，release版有问题。数据没显示
+
+
+buildTypes { release { minifyEnabled true shrinkResources true//减小apk包大小 proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro' } debug{ minifyEnabled true shrinkResources true//减小apk
+tags: android,Progouard,bean,okhttp
+categories: 
+article_id: 108561469
+---
 ﻿### Progouard 
 开始压缩 ，release版有问题。数据没显示	
 

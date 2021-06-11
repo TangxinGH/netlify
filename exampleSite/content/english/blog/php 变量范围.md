@@ -1,3 +1,27 @@
+---
+title: php 变量范围
+date: 2020-06-02 14:48:18.000
+updated: 2020-06-02 14:48:18.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/106495961
+description: 参考官方文档：
+https://www.php.net/manual/zh/language.variables.scope.php
+&lt;?php
+$a = 1; /* global scope */
+
+function Test()
+{
+    echo $a; /* reference to local scope variable */
+}
+
+Test();
+?&gt;
+
+
+这个脚本不会有任何输出，因为 echo 语句引用了一个局部版本的变量 $a，而且在这个范围内，它并没有被赋值。你可能注意到 
+tags: php
+categories: php
+article_id: 106495961
+---
 ﻿参考官方文档：
 [https://www.php.net/manual/zh/language.variables.scope.php](https://www.php.net/manual/zh/language.variables.scope.php)
 

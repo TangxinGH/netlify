@@ -1,3 +1,22 @@
+---
+title: hugo网易云音乐
+date: 2020-06-18 10:55:55.000
+updated: 2020-06-18 10:55:55.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/106825165
+description: 方法一：
+找到首页的的html文件 加入 代码
+https://blog.csdn.net/ds19991999/article/details/81293467
+代码可以插入在任何你想让播放器出现的任何位置，比如首页、文章页面、或者侧边栏。
+方法二：
+在md文件中加入 ：
+&lt;!-- cloud music --&gt;
+&lt;!-- auto=1 可以控制自动播放与否，当值为 1 即打开网页就自动播放，值为 0 时需要访
+客手动点击播放 --&gt;
+&lt;iframe frameborder=
+tags: hugo,网易云音乐
+categories: 网络
+article_id: 106825165
+---
 ﻿### 方法一：
 找到首页的的html文件 加入 代码 
 https://blog.csdn.net/ds19991999/article/details/81293467

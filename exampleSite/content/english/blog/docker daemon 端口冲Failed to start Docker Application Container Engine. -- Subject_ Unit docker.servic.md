@@ -1,3 +1,21 @@
+---
+title: docker daemon 端口冲Failed to start Docker Application Container Engine. -- Subject: Unit docker.servic
+date: 2021-03-23 20:43:17.000
+updated: 2021-03-23 20:52:44.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/115142866
+description: Failed to start Docker Application Container Engine.
+– Subject: Unit docker.service has failed
+– Defined-By: systemd
+– Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+– Unit docker.service has failed.
+– The result is failed.
+
+原因有很多
+我的是
+tags: docker,端口冲突,dockerd,docker服务无法启动
+categories: Linux
+article_id: 115142866
+---
 ﻿Failed to start Docker Application Container Engine.
 -- Subject: Unit docker.service has failed
 -- Defined-By: systemd

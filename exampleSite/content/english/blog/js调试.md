@@ -1,3 +1,18 @@
+---
+title: js调试
+date: 2019-11-13 18:05:07.000
+updated: 2019-11-13 19:18:16.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/103054464
+description: https://www.cnblogs.com/yuerdong/p/9883951.html
+getElementsByTagName() 方法可返回带有指定标签名的对象的集合。
+不用一个个改id之类的
+通过js创建元素，更改元素。
+getElementByClassName()函数的使用方法：
+https://www.runoob.com/jsref/met-document-geteleme...
+tags: 
+categories: JavaScript
+article_id: 103054464
+---
 ﻿[https://www.cnblogs.com/yuerdong/p/9883951.html](https://www.cnblogs.com/yuerdong/p/9883951.html)
 
 getElementsByTagName() 方法可返回带有指定标签名的对象的集合。

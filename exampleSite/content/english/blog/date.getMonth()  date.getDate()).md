@@ -1,3 +1,18 @@
+---
+title: date.getMonth()  date.getDate())
+date: 2020-11-01 13:16:08.000
+updated: 2020-11-01 13:16:08.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/109422761
+description: Date date = new Date();
+System.out.println(date.getMonth());
+System.out.println(date.getDate());
+这个已经弃用了
+使用
+Returns a number representing the month that contains or begins with the instant in time represented by this Date object. The value returned is betw
+tags: java,getMonth,getDate
+categories: java
+article_id: 109422761
+---
 ﻿ Date date = new Date();
         System.out.println(date.getMonth());
         System.out.println(date.getDate());

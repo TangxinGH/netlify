@@ -1,3 +1,22 @@
+---
+title: Dockerfile中更换国内源 jenkins docker 慢
+date: 2020-10-08 13:14:33.000
+updated: 2020-10-08 13:14:33.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/108962058
+description: 场景：
+  在docker中使用Dockerfile的方式进行构建自己的镜像时，发现构建的镜像默认使用国外的源，导致使用自己构造的镜像 启动容器后，在容器中安装软件慢的离谱，而且大多数情况下都会因为连接超时而失败，ubuntu中一个简单的vim都安装不了。
+
+  那么，就想这在Dockerfile文件构建镜像的初期，就将新的镜像中的源给替换了。
+
+操作步骤：
+https://blog.csdn.net/yyj108317/article/details/105984674
+方法二：
+直接清华源：
+搜索你镜像
+tags: docker,dokcerfile,jenkinsDocker,慢
+categories: 
+article_id: 108962058
+---
 ﻿场景：
 
       在docker中使用Dockerfile的方式进行构建自己的镜像时，发现构建的镜像默认使用国外的源，导致使用自己构造的镜像 启动容器后，在容器中安装软件慢的离谱，而且大多数情况下都会因为连接超时而失败，ubuntu中一个简单的vim都安装不了。

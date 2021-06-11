@@ -1,3 +1,25 @@
+---
+title: wsl2 docker hpye-v window config.v2.json位置目录
+date: 2021-03-31 19:09:05.000
+updated: 2021-03-31 19:12:18.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/115358046
+description: docker desktop
+window 现在的是wls2 方式。而不是hpye-v模式。
+hpye-v有资源控制方式。没什么用。
+wls
+wsl 语法：
+wsl空格 linux命令
+du df ls -lh区别
+备份的时候发现在，目录大小才几k，一直以为备份没成功。原来是ls 显示文件大小。linux 是inodo block方式存储的。ls 目录是目录inode大小。不是block内容，档案大小。
+du -u 是所点磁盘大小。
+df 是百分比。
+百度。
+
+...
+tags: wls,docker desktop,window docker,container dir,config.v2.json
+categories: win10
+article_id: 115358046
+---
 ﻿# docker desktop
 window 现在的是wls2 方式。而不是hpye-v模式。
 

@@ -1,3 +1,16 @@
+---
+title: 要使HTML表单生成文件上传变量必须满足哪3个条件
+date: 2020-06-02 17:33:35.000
+updated: 2020-06-02 17:33:35.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/106500281
+description: 必须使用POST方式提交(设置表单 method=“post” )；(2) 必须设置表单enctype属性为  enctype=“multipart/form-data” ；(3) 表单中要有一个文本域控件。
+application/x-www-form-urlencoded： 窗体数据被编码为名称/值对。这是标准的编码格式。
+multipart/form-data： 窗体数据被编码为一条消息，页上的每个控件对应消息中的一个部分。
+text/plain： 窗体数据以纯文本形式进行编码，其中不含任何控件或格式
+tags: php文件上传,http协议
+categories: php
+article_id: 106500281
+---
 ﻿必须使用POST方式提交(设置表单 method="post" )；(2) 必须设置表单enctype属性为  enctype="multipart/form-data" ；(3) 表单中要有一个文本域控件。
 
 

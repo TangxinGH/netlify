@@ -1,3 +1,20 @@
+---
+title: Jenkins springboot maven kotlin java混合 不混合的多模块 问题总结有点小坑
+date: 2020-10-07 10:33:10.000
+updated: 2020-10-07 10:33:10.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/108947769
+description: 搞了一天，心累。
+idea 打包没有问题。
+难道idea 这么智能吗？
+
+错误
+
+/var/jenkins_home/workspace/kunpengshetuan/app/src/main/java/kunpeng/App.java:[7,19] package POJO does not exist
+[ERROR] /var/jenkins_home/workspace/kunpengshetuan/app/src/main/java/kunpeng/App.java:[7,1] static imp
+tags: jenkins,maven问题,kotlinJAVA混合,多模块下的问题
+categories: java,Linux,# springboot
+article_id: 108947769
+---
 ﻿### 搞了一天，心累。
 idea 打包没有问题。
 难道idea 这么智能吗？

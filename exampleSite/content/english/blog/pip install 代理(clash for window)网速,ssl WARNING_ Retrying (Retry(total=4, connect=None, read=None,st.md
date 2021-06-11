@@ -1,3 +1,19 @@
+---
+title: pip install 代理(clash for window)网速,ssl WARNING: Retrying (Retry(total=4, connect=None, read=None,st
+date: 2021-01-25 20:56:13.000
+updated: 2021-01-25 20:56:13.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/113132406
+description: pip install FileNotFoundError: [Errno 2] No such file or directory:
+
+
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None))connection broken by
+timeout
+proxy error
+after connection broken by 'ProxyError(‘Cannot connect to.
+tags: anaconda,proxy,pip,pip install,proxy error
+categories: python
+article_id: 113132406
+---
 ﻿> pip install FileNotFoundError: [Errno 2] No such file or directory:
 
 >WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None))connection broken by

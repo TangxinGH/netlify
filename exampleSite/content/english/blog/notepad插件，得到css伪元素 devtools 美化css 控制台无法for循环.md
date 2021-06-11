@@ -1,3 +1,16 @@
+---
+title: notepad插件，得到css伪元素 devtools 美化css 控制台无法for循环
+date: 2021-03-16 16:26:00.000
+updated: 2021-05-12 17:07:16.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/114886768
+description: 安装插件
+
+
+
+tags: 安装插件,控制台for代码,伪元素抓取
+categories: 前端
+article_id: 114886768
+---
 ﻿# 安装插件
 ![在这里插入图片描述](http://img.yayi.site/csdn/20210316162556434.png-watermaskStyle)
 

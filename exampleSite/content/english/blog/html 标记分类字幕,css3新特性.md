@@ -1,3 +1,16 @@
+---
+title: html 标记分类字幕,css3新特性
+date: 2021-05-11 10:30:51.000
+updated: 2021-05-11 11:18:59.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/116644079
+description: <!DOCTYPE html> 意义
+html 标记分类
+html5 字幕 背景音乐 锚点链接
+css3新特性
+tags: css3新特性,html标记分类,总结
+categories: 前端
+article_id: 116644079
+---
 ﻿[toc]
 ![s](http://img.yayi.site/csdn/ff8a0240106ea8f29f5ccd546439c1bd.gif-watermaskStyle)
 >为什么html有容错性呢？

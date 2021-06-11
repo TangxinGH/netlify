@@ -1,3 +1,21 @@
+---
+title: vscode latex workshop recipe terminated with fatal error spawn latexmk enoent
+date: 2021-01-03 18:15:50.000
+updated: 2021-01-03 18:15:50.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/112144211
+description: vscode latex workshop recipe terminated with fatal error spawn latexmk enoent
+window + telive2020
+使用清华的在线安装。
+telive 3.0G  几乎包含所有的包了。比如latexmk
+搜索了一下，好像是环境变量路径问题。
+textlive manager  搜索得到latexmk
+cmd 输得出东西。
+window的path 也是安装时自动配好的。
+我尝试更改vscode 中的setting.json 的 w
+tags: TexLive,latex,latexmk,vscode 环境变量
+categories: win10
+article_id: 112144211
+---
 ﻿vscode latex workshop recipe terminated with fatal error spawn latexmk enoent
 
 window + telive2020 

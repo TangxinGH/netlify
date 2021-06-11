@@ -1,3 +1,18 @@
+---
+title: oracle 初学小错误
+date: 2020-05-30 16:21:08.000
+updated: 2020-05-30 16:21:08.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/104749164
+description: Error 6 initializing SQL*Plus SP2-0667: Message file sp1.msb not found SP2-0750: You may need to set ORACLE_HOME to your Oracle software directory
+linux下要su权限才行,切换到root下，再切回oracle下
+window下，百度吧
+参考教程
+
+创...
+tags: oracle
+categories: 数据库
+article_id: 104749164
+---
 ﻿Error 6 initializing SQL*Plus SP2-0667: Message file sp1<lang>.msb not found SP2-0750: You may need to set ORACLE_HOME to your Oracle software directory
 
 linux下要su权限才行,切换到root下，再切回oracle下

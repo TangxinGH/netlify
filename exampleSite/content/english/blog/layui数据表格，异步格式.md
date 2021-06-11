@@ -1,3 +1,15 @@
+---
+title: layui数据表格，异步格式
+date: 2019-11-09 14:54:29.000
+updated: 2019-11-09 14:54:38.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/102987111
+description: https://blog.csdn.net/weixin_42143048/article/details/88174310
+
+
+tags: 
+categories: javaweb
+article_id: 102987111
+---
 ﻿返回的数据不符合规范，正确的成功状态码应为："code": 0
 
 [https://blog.csdn.net/weixin_42143048/article/details/88174310](https://blog.csdn.net/weixin_42143048/article/details/88174310)

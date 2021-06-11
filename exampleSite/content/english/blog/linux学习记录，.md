@@ -1,3 +1,24 @@
+---
+title: linux学习记录，
+date: 2019-12-05 18:31:35.000
+updated: 2019-12-05 18:31:35.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/103404831
+description: HTTPPIE
+CURL
+esc 退出编辑，：q退出
+could not retrieve mirrorlist http://
+https://blog.csdn.net/qq_33733970/article/details/81200980
+cd etc/sysconfig/network-scripts/
+ls
+找到ifcfg-你的网卡名
+onboot=on
+reboot
+清屏clear
+...
+tags: linux,vmtools,man,yum,yum镜像
+categories: Linux
+article_id: 103404831
+---
 ﻿HTTPPIE
 CURL
 esc 退出编辑，：q退出

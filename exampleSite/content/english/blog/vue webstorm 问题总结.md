@@ -1,3 +1,20 @@
+---
+title: vue webstorm 问题总结
+date: 2020-01-02 22:48:41.000
+updated: 2020-01-02 22:48:41.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/103697331
+description: WebStorm光标经常变成块状更改
+https://blog.csdn.net/alokka/article/details/73719371
+insert
+Parsing error: x-invalid-end-tag
+ivew，tmd rubbish
+这个我也无法解决，我关了eslint也没用，只能手动关标签
+
+...
+tags: vue,html,js,vue.js,node.js
+categories: 前端
+article_id: 103697331
+---
 ﻿WebStorm光标经常变成块状更改
 https://blog.csdn.net/alokka/article/details/73719371
 insert

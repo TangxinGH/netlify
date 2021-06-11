@@ -1,3 +1,19 @@
+---
+title: tinymce is not a valid module  layui is not define
+date: 2019-11-11 13:19:16.000
+updated: 2019-11-11 13:19:35.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/103008510
+description: 路径问题
+
+不管是 …/ 还是./
+我这里都不会404， 但偏偏就是undefine…
+
+
+
+tags: 
+categories: 前端
+article_id: 103008510
+---
 ﻿路径问题
 ![在这里插入图片描述](http://img.yayi.site/csdn/2019111113180333.png-watermaskStyle)
 不管是 ../ 还是./

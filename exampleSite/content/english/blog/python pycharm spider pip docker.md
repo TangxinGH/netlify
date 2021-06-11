@@ -1,3 +1,18 @@
+---
+title: python pycharm spider pip docker
+date: 2020-03-05 19:45:07.000
+updated: 2020-03-05 19:45:07.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/104239775
+description: pip 安装第三方库
+第三方库：https://pypi.org/
+https://blog.csdn.net/lzqg1990/article/details/87877048
+在安装目录下 pip install xxx
+https://www.cnblogs.com/fengff/p/11804465.html
+关于脚本第一行的 #!/usr/bin/python 的解释，相信很多不熟悉 L...
+tags: python,linux,docker
+categories: python
+article_id: 104239775
+---
 ﻿pip 安装第三方库
 第三方库：https://pypi.org/
 [https://blog.csdn.net/lzqg1990/article/details/87877048](https://blog.csdn.net/lzqg1990/article/details/87877048)

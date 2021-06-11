@@ -1,3 +1,26 @@
+---
+title: nginx phpstorm xdebug window
+date: 2020-05-10 09:35:47.000
+updated: 2020-05-10 09:35:47.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/106031786
+description: 太痛苦了。搞了一天。
+教程差不多。
+说几个注意点：
+
+phpstorm 中的validate 这个验证。path to create validation script 填你ide的目录。
+
+
+
+我把 mappings 关了，有什么影响不知道。
+
+
+关键的一点
+nginx .conf 中配置，php 文件为后缀的交给 cgi 处理。原本的 fastcgi_param 是这样的。
+fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;  然而
+tags: php,nginx,phpstorm,xdebug
+categories: php
+article_id: 106031786
+---
 ﻿
 太痛苦了。搞了一天。
 教程差不多。

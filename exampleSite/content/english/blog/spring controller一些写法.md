@@ -1,3 +1,19 @@
+---
+title: spring controller一些写法
+date: 2020-09-29 22:33:27.000
+updated: 2020-09-29 22:33:27.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/108877017
+description: //@RestController 等于 @Controller + @ResponseBody  REST风格 
+@Controller
+@RequestMapping("/")
+public class mainController {
+    @RequestMapping("/")
+public @ResponseBody    String Helloword(){//@ResponseBody 数据写进body里。
+    return "helloworld. this is from con
+tags: springboot,controller
+categories: # springboot
+article_id: 108877017
+---
 ﻿
 ```java
 //@RestController 等于 @Controller + @ResponseBody  REST风格 

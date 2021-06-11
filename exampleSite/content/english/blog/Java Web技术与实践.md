@@ -1,3 +1,38 @@
+---
+title: Java Web技术与实践
+date: 2021-05-12 17:50:10.000
+updated: 2021-05-13 14:31:25.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/116716911
+description: 按照MVC思想，Ajax 与json 技术。
+servlet与jsp技术体系
+JDBC DAO设计
+SSH框架
+web项目经典问题
+web 应用概述
+分类
+B/S
+http协议
+静态与动态
+web服务器与应用服务器
+ASP 与ASP.net
+servlet/jsp技术
+web技术比较
+servlet 、jsp 基础
+servlet 基础
+历史，特点
+功能，运行过程，生命周期
+主要功能
+servlet 生命周期与运行过程
+jsp 技术基础
+MVC
+内置对象技术
+request
+response
+session
+tags: Javaweb概述,web技术,spring
+categories: javaweb
+article_id: 116716911
+---
 ﻿[toc]
 # web 应用概述
 ## 分类

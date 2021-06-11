@@ -1,3 +1,26 @@
+---
+title: .htacess文件一此学习，先要了解大概才能做
+date: 2020-06-17 15:35:02.000
+updated: 2020-06-17 15:35:02.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/106809471
+description: 文件.htaccess
+重定向方法
+重定向方法：
+#两个方法
+#RewriteEngine On
+#RewriteRule ^/ http://localhost:8080/blog [R=301,L]
+二：
+&lt;Files ~ “^.(htaccess|htpasswd)$”&gt;
+deny from all
+
+Redirect permanent http://localhost:8080/ http://localhost:8080/blog
+order deny,allow
+首先要开启：
+ht
+tags: .htacesss
+categories: 网络
+article_id: 106809471
+---
 ﻿## 文件.htaccess
 
 ### 重定向方法

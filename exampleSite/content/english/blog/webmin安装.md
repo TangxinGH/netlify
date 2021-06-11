@@ -1,3 +1,16 @@
+---
+title: webmin安装
+date: 2019-12-06 09:52:28.000
+updated: 2019-12-06 09:52:28.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/103417039
+description: https://www.cnblogs.com/phpk/p/10514910.html
+webmin-1.930-1.noarch.rpm
+[root@localhost yayi]# rpm -ivh webmin-1.930-1.noarch.rpm
+警告：webmin-1.930-1.noarch.rpm: 头V4 DSA/SHA1 Signature, 密钥 ID 11f63c51: N...
+tags: webmin,ipv6,install
+categories: Linux
+article_id: 103417039
+---
 ﻿[https://www.cnblogs.com/phpk/p/10514910.html](https://www.cnblogs.com/phpk/p/10514910.html)
 
 webmin-1.930-1.noarch.rpm

@@ -1,3 +1,17 @@
+---
+title: javaweb spring   requestmap404
+date: 2019-11-10 12:05:35.000
+updated: 2019-11-10 14:52:42.000
+csdn_url: https://blog.csdn.net/weixin_43531940/article/details/102996110
+description: spring 重定向：
+https://www.cnblogs.com/xiaoluohao/p/11354145.html
+jsp 包含文件html
+https://www.cnblogs.com/TirL/articles/8664017.html
+&lt;%@ include file=“flower.jsp” %&gt;&lt;%–//(等于是将两个jsp合并为一个jsp)或–%&gt; ...
+tags: 
+categories: javaweb
+article_id: 102996110
+---
 ﻿spring 重定向：
 [https://www.cnblogs.com/xiaoluohao/p/11354145.html](https://www.cnblogs.com/xiaoluohao/p/11354145.html)
 
