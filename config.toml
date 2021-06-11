@@ -1,102 +1,51 @@
-baseURL = "https://tangxin.fun/"
-disqusShortname = ""
-languageCode = "zh-cn"
-paginate = "5"
-summaryLength = "10"
-theme = "northendlab-hugo"
-title = "唐心's博客"
-[[menu.footer]]
-name = "YaYi"
-url = "https://yayi.site"
-weight = 3
-[[menu.footer]]
-URL = "tools"
-name = "tools"
-weight = 2
-[[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 1
-[[menu.main]]
-name = "Netlify"
-parent = "Admin"
-url = "admin"
-weight = 1
-[[menu.main]]
-name = "Forestry"
-parent = "Admin"
-url = "admin/forestry"
-weight = 2
-[[menu.main]]
-hasChildren = true
-name = "Admin"
-weight = 2
-[[menu.main]]
-URL = "tools"
-name = "tools"
-weight = 4
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 3
-[[menu.main]]
-URL = "posts"
-name = "Blog"
-weight = 1
-[outputs]
-home = ["HTML", "AMP", "RSS", "JSON"]
-[params]
-author = "TangXin"
-contact_form_action = "#"
-copyright = "&copy; 2021 [TangXin](https://TangxinGH.github.com) All Rights Reserved"
-description = "This is meta description"
-google_tag_manager = ""
-home = "Home"
-logo = "images/logo.svg"
-[params.banner]
-bgImage = "images/banner/banner-bg.svg"
-image = "images/banner/illustration.svg"
-title = "Hi, I'm  Tang Xin. <br> I help people make the  worlds best software"
-[params.cookies]
-enable = true
-expire_days = 2
-[params.cta]
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
-enable = true
-image = "images/hugo-muscot.svg"
-title = "Get the best blog templates"
-[params.cta.button]
-enable = true
-label = "Visit Here"
-link = "https://yayi.site/"
+# This file is for render site varibles and plugins
+# don't remove this file.
+# The presence of this file is for compatibility with Blogdown and Forestry.
+#
+# The actual configuration files are stored in the `config/_default/` folder.
+
+
+######################### site variables ##############################
+# customize your color and font from here.
+[params.variables]
+primary_color = "#0AA8A7"
+text_color = "#777"
+text_color_dark = "#222"
+body_color = "#fff"
+border_color = "#ECECEC"
+black = "#000"
+white = "#fff"
+light = "#EDF6F5"
+
+# font variable
+# Give your font name from google font. add font weight using ":wght@" and separate by ";"
+# example: "Work Sans:wght@400;500;600"
+primary_font = "Lato:wght@400"
+primary_font_type = "sans-serif" # [serif/sans-serif]
+icon_font = "Font Awesome 5 Free"
+
+
+############################# Plugins ##############################
+# CSS Plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css"
+
+
+# JS Plugins
 [[params.plugins.js]]
-link = "plugins/jQuery/jquery.min.js"
+link = "plugins/jQuery/jquery.slim.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
-link = "plugins/search/fuse.min.js"
-[[params.plugins.js]]
-link = "plugins/search/mark.js"
-[[params.plugins.js]]
-link = "plugins/search/search.js"
-[params.preloader]
-enable = true
-preloader = ""
-[params.search]
-enable = true
-[[params.social]]
-icon = "ti-facebook"
-link = "#"
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
-[[params.social]]
-icon = "ti-github"
-link = "#"
-[[params.social]]
-icon = "ti-linkedin"
-link = "#"
+link = "plugins/slick/slick.min.js"
+# [[params.plugins.js]]
+# link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+# attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"

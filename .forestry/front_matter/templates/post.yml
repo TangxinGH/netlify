@@ -12,15 +12,9 @@ fields:
   name: image
   label: image
 - type: text
-  name: author
-  label: author
-- type: text
-  name: description
-  label: description
-- type: list
-  name: categories
-  label: categories
-- type: text
   name: type
   label: type
-  default: post
+  description: 'Available type: featured/regular'
+- type: text
+  name: description
+  label: meta description
