@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org/"
-title = "Bigspring Hugo"
+baseURL = "http://tangxin.fun/"
+title = "烟波蓝-博客"
 theme = "bigspring"
 # post pagination
 paginate = "3"
